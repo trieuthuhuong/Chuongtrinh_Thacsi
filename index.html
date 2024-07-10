@@ -17,6 +17,56 @@
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
 		<![endif]-->
+    <!--css time line-->
+    <style>
+    .horizontal-timeline .items {
+      border-top: 3px solid #e9ecef;
+    }
+    
+    .horizontal-timeline .items .items-list {
+      display: block;
+      position: relative;
+      text-align: center;
+      padding-top: 70px;
+      margin-right: 0;
+    }
+    
+    .horizontal-timeline .items .items-list:before {
+      content: "";
+      position: absolute;
+      height: 36px;
+      border-right: 2px dashed #dee2e6;
+      top: 0;
+    }
+    
+    .horizontal-timeline .items .items-list .event-date {
+      position: absolute;
+      top: 36px;
+      left: 0;
+      right: 0;
+      width: 75px;
+      margin: 0 auto;
+      font-size: 0.9rem;
+      padding-top: 8px;
+    }
+    
+    @media (min-width: 1140px) {
+      .horizontal-timeline .items .items-list {
+        display: inline-block;
+        width: 24%;
+        padding-top: 45px;
+      }
+    
+      .horizontal-timeline .items .items-list .event-date {
+        top: -40px;
+      }
+    }
+  </style>
+    <!--css time line-->
+
+
+
+
   </head>
   <body>
     <div class="preloader">
@@ -29,7 +79,7 @@
     </div>
     <!-- Page-->
     <div class="page">
-      <section class="d-none d-xl-block"><a class="d-block" href="https://www.templatemonster.com/landing-page-template/aurona-business-responsive-html-landing-page-template-68859.html" target="_blank"><img class="img-responsive" src="images/banner-top-2050x60.jpg" alt="" width="2050" height="60"/></a></section>
+      
       <!-- Page Header-->
       <header class="page-header">
         <!-- RD Navbar-->
@@ -40,7 +90,7 @@
               <div class="rd-navbar-panel">
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/logo-157x37.png" alt="" width="157" height="37"/></a></div>
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/Logo ITDE_Finally-01.png" alt="" width="157" height="37"/></a></div>
               </div>
               <!-- RD Navbar Nav-->
               <div class="rd-navbar-nav-wrap">
@@ -74,7 +124,7 @@
                       <!--if (navbarTexts && typeof(item.subtitle) !== 'undefined')-->
                       <!--  span.rd-navbar-subtitle=item.subtitle--></a>
                   </li>
-                  <li><a href="#contacts">Contacts
+                  <li><a href="#contacts">Liên hệ
                       <!--if (navbarTexts && typeof(item.subtitle) !== 'undefined')-->
                       <!--  span.rd-navbar-subtitle=item.subtitle--></a>
                   </li>
@@ -94,8 +144,8 @@
                 <div class="container">
                   <div class="row justify-content-center">
                     <div class="col-lg-7">
-                      <h2 data-caption-animate="fadeInUpSmall" data-caption-delay="100">CLEAN AND CRISPY DESIGN</h2>
-                      <h5 class="text-width-2 block-centered" data-caption-animate="fadeInUpSmall" data-caption-delay="200">Aurona is crafted by top industry leaders with love, care and customer needs in mind.</h5>
+                      <h2 data-caption-animate="fadeInUpSmall" data-caption-delay="100">Tuyển sinh thạc sỹ 2024</h2>
+                      <h4 class="text-width-4 block-centered" data-caption-animate="fadeInUpSmall" data-caption-delay="200">Chuyên ngành Phân tích kinh doanh <br> Chuyên ngành quản trị hệ thống thông tin.</h4>
                       <div class="group-lg group-middle"><a class="button button-black" data-caption-animate="fadeInUpSmall" data-caption-delay="350" href="#features" data-custom-scroll-to="features">See Features</a><a class="button button-primary" data-caption-animate="fadeInUpSmall" data-caption-delay="350" href="#">Download Now</a></div>
                     </div>
                   </div>
@@ -107,8 +157,8 @@
                 <div class="container">
                   <div class="row justify-content-center">
                     <div class="col-lg-7">
-                      <h2 data-caption-animate="fadeInUp" data-caption-delay="100">ADVANCED UI TOOLKIT</h2>
-                      <h5 data-caption-animate="fadeInUp" data-caption-delay="300">Aurona comes with a powerful and flexible extended toolkit in addition to basic Bootstrap.</h5><a class="button button-primary" href="#" data-caption-animate="fadeInUp" data-caption-delay="400">Live demo</a>
+                      <h2 data-caption-animate="fadeInUp" data-caption-delay="100">Chuyên ngành Phân tích kinh doanh</h2>
+                      <h4 data-caption-animate="fadeInUp" data-caption-delay="300"><i class="icon fa fa-check"></i>Xét tuyển thẳng <br> <i class="icon fa fa-check"></i> Xét tuyển theo hồ sơ.</h4><a class="button button-primary" href="#" data-caption-animate="fadeInUp" data-caption-delay="400">Live demo</a>
                     </div>
                   </div>
                 </div>
@@ -121,8 +171,8 @@
                   <div class="container">
                     <div class="row justify-content-center">
                       <div class="col-lg-7">
-                        <h2 data-caption-animate="fadeInUpSmall" data-caption-delay="100">Built by geeks</h2>
-                        <h5 class="text-width-2 block-centered" data-caption-animate="fadeInUpSmall" data-caption-delay="200">Aurona aims to satisfy real needs of real projects. We've got a pack of tools for that.</h5>
+                        <h2 data-caption-animate="fadeInUpSmall" data-caption-delay="100">Chuyên ngành Quản trị hệ thống thông tin</h2>
+                        <h4 class="text-width-2 block-centered" data-caption-animate="fadeInUpSmall" data-caption-delay="200"><i class="icon fa fa-check"></i>Xét tuyển thẳng <br> <i class="icon fa fa-check"></i>Xét tuyển theo hồ sơ</h4>
                         <div class="group-lg group-middle"><a class="button button-black" data-caption-animate="fadeInUpSmall" data-caption-delay="350" href="#features" data-custom-scroll-to="features">See Features</a><a class="button button-primary" data-caption-animate="fadeInUpSmall" data-caption-delay="350" href="#">Download Now</a></div>
                       </div>
                     </div>
@@ -142,37 +192,74 @@
       <section class="section-md bg-default text-center">
         <div class="container">
           <div class="row justify-content-lg-center">
-            <div class="col-lg-10 col-xl-8">
-              <h3 class="heading-decorated">Multiple Themes &<br>a Variety of Features</h3>
-              <p>Aurona is a multipurpose template optimized for various niches of business. Besides neutral classic websites you can create restaurant, hotel, sport gym website and much much more. There is also a variety of useful features that are included with this template.</p>
+            <div class="col-lg-12 col-xl-8">
+              <h3 class="heading-decorated">Thời gian xét tuyển</h3>
+              <p>Time-line tuyển sinh thạc sỹ ngành <b>Phân tích kinh doanh</b> và <b>Quản trị hệ thống thông tin </b>.</p>
             </div>
           </div>
-          <div class="row row-50">
-            <div class="col-md-6 col-xl-4">
-              <div class="thumbnail-classic"><a href="#"><img src="images/portfolio-1-418x315.jpg" alt="" width="418" height="315"/></a>
-                <div class="caption">
-                  <h5><a class="thumbnail-classic-title" href="#">Bootstrap Framework</a></h5>
-                  <p>Aurona is based on Bootstrap Framework, which makes it a nice template for any purpose.</p>
+          <!--div class="row row-50"-->
+            <div class="container-fluid py-5">
+
+              <div class="row">
+                <div class="col-lg-12">
+            
+                  <div class="horizontal-timeline">
+            
+                    <ul class="list-inline items">
+                      <li class="list-inline-item items-list">
+                        <div class="px-4">
+                          <div class="event-date badge bg-info">2 June</div>
+                          <h5 class="pt-2">Event One</h5>
+                          <p class="text-muted">It will be as simple as occidental in fact it will be Occidental Cambridge
+                            friend</p>
+                          <div>
+                            <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-inline-item items-list">
+                        <div class="px-4">
+                          <div class="event-date badge bg-success">5 June</div>
+                          <h5 class="pt-2">Event Two</h5>
+                          <p class="text-muted">Everyone realizes why a new common language one could refuse translators.
+                          </p>
+                          <div>
+                            <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-inline-item items-list">
+                        <div class="px-4">
+                          <div class="event-date badge bg-danger">7 June</div>
+                          <h5 class="pt-2">Event Three</h5>
+                          <p class="text-muted">If several languages coalesce the grammar of the resulting simple and
+                            regular</p>
+                          <div>
+                            <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-inline-item items-list">
+                        <div class="px-4">
+                          <div class="event-date badge bg-warning">8 June</div>
+                          <h5 class="pt-2">Event Four</h5>
+                          <p class="text-muted">Languages only differ in their pronunciation and their most common words.
+                          </p>
+                          <div>
+                            <a href="#" data-mdb-ripple-init class="btn btn-primary btn-sm">Read more</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+            
+                  </div>
+            
                 </div>
               </div>
+            
             </div>
-            <div class="col-md-6 col-xl-4">
-              <div class="thumbnail-classic"><a href="#"><img src="images/portfolio-2-418x315.jpg" alt="" width="418" height="315"/></a>
-                <div class="caption">
-                  <h5><a class="thumbnail-classic-title" href="#">Novi Builder</a></h5>
-                  <p>Use our Novi Builder to customize and update your website within board with this template.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-4">
-              <div class="thumbnail-classic"><a href="#"><img src="images/portfolio-3-418x315.jpg" alt="" width="418" height="315"/></a>
-                <div class="caption">
-                  <h5><a class="thumbnail-classic-title" href="#">Responsive &amp; Retina Ready</a></h5>
-                  <p>Aurona looks great on any screen resolution and on any device due to its responsiveness.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+            
+          <!--/div-->
         </div>
       </section>
 
@@ -1092,34 +1179,34 @@
             </div>
           </div>
         </div>
-        <div class="object-wrap__body object-wrap__body-sizing-1 object-wrap__body-md-left bg-image" style="background-image: url(images/bg-image-1.jpg)"></div>
+        <div class="object-wrap__body object-wrap__body-sizing-1 object-wrap__body-md-left bg-image" style="background-image: url(images/thumb_20231120_meeting_05.jpg)"></div>
       </section>
 
-      <section><a class="d-block" href="https://www.templatemonster.com/landing-page-template/aurona-business-responsive-html-landing-page-template-68859.html" target="_blank"><img class="img-responsive" src="images/banner-bottom-2050x310.jpg" alt="" width="2050" height="310"/></a></section>
+     
       <!-- Page Footer-->
       <section class="pre-footer-corporate bg-image-7 bg-overlay-darkest">
         <div class="container">
           <div class="row justify-content-sm-center justify-content-lg-start row-30 row-md-60">
-            <div class="col-sm-10 col-md-6 col-lg-10 col-xl-3"><a class="brand" href="index.html"><img src="images/logo-invert-157x37.png" alt="" width="157" height="37"/></a>
-              <p>Aurona is HTML template that fits both developers and beginners. It comes loaded with an assortment of tools and features that make customization process much easier. A pack of child themes available at zemez.io, specially designed for various business niches, allows users to create a fully functional site for any specific business quickly and worry-free.</p>
+            <div class="col-sm-10 col-md-6 col-lg-10 col-xl-3"><a class="brand" href="index.html"><img src="images/Logo ITDE_Finally-01.png" alt="" width="157" height="37"/></a>
+             
             </div>
             <div class="col-sm-10 col-md-6 col-lg-3 col-xl-3">
-              <h6>Navigation</h6>
+              
               <ul class="list-xxs list-primary">
-                <li><a href="#">What We Offer</a></li>
-                <li><a href="#">Our Team</a></li>
-                <li><a href="#">Our Portfolio</a></li>
-                <li><a href="#">Latest Posts</a></li>
-                <li><a href="#">Clients</a></li>
+                <li><a href="#">Chuyên ngành Phân tích kinh doanh</a></li>
+                <li><a href="#">Chuyên ngành Quản trị hệ thống thông tin</a></li>
+                <li><a href="#">Phương thức xét tuyển</a></li>
+                <li><a href="#">Thời gian xét tuyển </a></li>
+                <li><a href="#">Hồ sơ xét tuyển</a></li>
               </ul>
             </div>
             <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-              <h6>Contacts</h6>
+              <h6>Liên hệ</h6>
               <ul class="list-xs">
                 <li>
                   <dl class="list-terms-minimal">
                     <dt>Address</dt>
-                    <dd>4578 Marmora Road, Glasgow, D04 89GR</dd>
+                    <dd>12 Chùa Bộc, Đống Đa, Hà Nội</dd>
                   </dl>
                 </li>
                 <li>
@@ -1127,8 +1214,8 @@
                     <dt>Phones</dt>
                     <dd>
                       <ul class="list-semicolon">
-                        <li><a href="tel:#">(800)&nbsp;123-0045;</a></li>
-                        <li><a href="tel:#">(800)&nbsp;123-0045</a></li>
+                        <li><a href="tel:#">0877033589</a></li>
+                        
                       </ul>
                     </dd>
                   </dl>
@@ -1136,15 +1223,10 @@
                 <li>
                   <dl class="list-terms-minimal">
                     <dt>E-mail</dt>
-                    <dd><a class="link-primary" href="mailto:#">info@demolink.org</a></dd>
+                    <dd><a class="link-primary" href="mailto:#">khoacnttkts@hvnh.edu.vn</a></dd>
                   </dl>
                 </li>
-                <li>
-                  <dl class="list-terms-minimal">
-                    <dt>We are open</dt>
-                    <dd>Mn-Fr: 10 am-8 pm</dd>
-                  </dl>
-                </li>
+                
               </ul>
             </div>
             <div class="col-sm-10 col-md-6 col-lg-5 col-xl-3">
@@ -1167,7 +1249,7 @@
       <footer class="footer-corporate bg-gray-darkest">
         <div class="container">
           <div class="footer-corporate__inner">
-            <p class="rights"><span>Aurona</span><span>&nbsp;&copy;&nbsp;</span><span id="copyright-year"></span>. All Rights Reserved. Design by Zemez</p>
+            <p class="rights"><span>ITDE</span><span>&nbsp;&copy;&nbsp;</span><span id="copyright-2024">copyright-2024</span></p>
             <ul class="list-inline-xxs">
               <li><a class="icon icon-xxs icon-gray-darker fa fa-facebook" href="#"></a></li>
               <li><a class="icon icon-xxs icon-gray-darker fa fa-twitter" href="#"></a></li>
